@@ -5,8 +5,883 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clone Disney+</title>
     <link rel="stylesheet" href="dist/css/main.css">
+    <link rel="stylesheet" href="https://stanley.fbitsstatic.net/sf/Fonts/Knockout-HTF49-Liteweight.woff2">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link href="https://db.onlinewebfonts.com/c/717238941776b0b0ac905d0e40682b62?family=Knockout-HTF49-Liteweight" rel="stylesheet">
 </head>
 <body>
-    <h1>ola mundo</h1>
+    <header class="header">
+        <div class="header--top">
+        <div class="component__container">
+            <div class="component__row">
+                <div class="top__message">
+                    <span>FRETE GRATIS SUL/SUDESTE</span>
+                </div>
+                <div class="top__options">
+                    <div class="options__guide">
+                        <div class="guide__button">
+                            <span>COMPRA GUIADA</span>
+                        </div>
+                    </div>
+                    <div class="options__call">
+                        <div class="guide__button">
+                        <span>ATENDIMENTO</span>
+                        </div>
+                    </div>
+                </div>
+                </div>
+        </div>
+        </div>
+        <div class="header--desktop">
+            <div class="header--container component__container">
+                <div class="header__row component__row">
+                    <div class="header--logo">
+                        <h1 class="header--logo__h1">
+                            <img src="https://stanley.fbitsstatic.net/sf/img/logo-stanley.svg?theme=main&v=202404171538" alt="">
+                        </h1>
+                    </div>
+                    <div class="header__menu">
+                        <nav id="navbar">
+                            <ul>
+                                <li class="menu-geral">
+                                    <a href="#" id="menu">BAR</a>
+                                    <div class="menu__submenu">
+                                        <div class="submenu__inner">
+                                            <div class="submenu__has__banner">
+                                                <ul role="menu">
+                                                    <li class="menu-geral-filho">
+                                                        <a href="#" class="menu-geral-filho" style="text-transform: uppercase;">Bar</a>
+                                                        <ul class="submenu">
+                                                            <li class="menu-geral-neto"><a href="#">Copo Térmico </a></li>
+                                                            <li class="menu-geral-neto"><a href="#">Caneca Térmico </a></li>
+                                                            <li class="menu-geral-neto"><a href="#">Growler Térmico </a></li>
+                                                            <li class="menu-geral-neto"><a href="#">Gift Set </a></li>
+                                                            <li class="menu-geral-neto"><a href="#">Ver todos </a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="menu-geral-filho" role="none">
+                                                        <a href="#" class="menu-geral-filho" style="text-transform: uppercase;">Series</a>
+                                                        <ul>
+                                                            <li class="menu-geral-neto"><a href="#">Happy Hour </a></li>
+                                                            <li class="menu-geral-neto"><a href="#">Adventure Series </a></li>
+                                                            <li class="menu-geral-neto"><a href="#">Classic Series </a></li>
+                                                            <li class="menu-geral-neto"><a href="#">William Stanley Jr </a></li>
+                                                            <li class="menu-geral-neto"><a href="#">Go Series </a></li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="submenu__banner">
+                                                <img src="src/images/menu/coposmenu.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="menu-geral">
+                                    <a href="#" id="menu-HID">HIDRATAÇÃO</a>
+                                    <div class="menu__submenu">
+                                        <div class="submenu__inner">
+                                            <div class="submenu__has__banner">
+                                                <ul role="menu">
+                                                    <li class="menu-geral-filho" role="none">
+                                                        <a href="#" class="menu-geral-filho" style="text-transform: uppercase;">Hidratação</a>
+                                                        <ul>
+                                                            <li class="menu-geral-neto"><a href="#">Garrafa Térmica </a></li>
+                                                            <li class="menu-geral-neto"><a href="#">Quencher </a></li>
+                                                            <li class="menu-geral-neto"><a href="#">Jug Térmico </a></li>
+                                                            <li class="menu-geral-neto"><a href="#">Ver todos </a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="menu-geral-filho" role="none">
+                                                        <a href="#" class="menu-geral-filho" style="text-transform: uppercase;">Series</a>
+                                                        <ul>
+                                                            <li class="menu-geral-neto"><a href="#">Aeroligth </a></li>
+                                                            <li class="menu-geral-neto"><a href="#">Adventure Series </a></li>
+                                                            <li class="menu-geral-neto"><a href="#">Classic Series </a></li>
+                                                            <li class="menu-geral-neto"><a href="#">Go Series </a></li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="submenu__banner">
+                                                <img src="src/images/menu/garrafasmenu.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="menu-geral">
+                                    <a href="#" id="menu-CAFE">CAFÉ</a>
+                                    <div class="menu__submenu">
+                                        <div class="submenu__inner">
+                                            <div class="submenu__has__banner">
+                                                <ul role="menu">
+                                                    <li class="menu-geral-filho" role="none">
+                                                        <a href="#" class="menu-geral-filho" style="text-transform: uppercase;">Café</a>
+                                                        <ul>
+                                                            <li class="menu-geral-neto"><a href="#">Mug Térmica </a></li>
+                                                            <li class="menu-geral-neto"><a href="#">Caneca Térmica </a></li>
+                                                            <li class="menu-geral-neto"><a href="#">Garrafa Térmica </a></li>
+                                                            <li class="menu-geral-neto"><a href="#">Prensa Francesa </a></li>
+                                                            <li class="menu-geral-neto"><a href="#">Ver todos </a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="menu-geral-filho" role="none">
+                                                        <a href="#" class="menu-geral-filho" style="text-transform: uppercase;">Series</a>
+                                                        <ul>
+                                                            <li class="menu-geral-neto"><a href="#">Master Series </a></li>
+                                                            <li class="menu-geral-neto"><a href="#">Adventure Series </a></li>
+                                                            <li class="menu-geral-neto"><a href="#">Classic Series </a></li>
+                                                            <li class="menu-geral-neto"><a href="#">Wlliam StanleY Jr </a></li>
+                                                            <li class="menu-geral-neto"><a href="#">Go Series </a></li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="submenu__banner">
+                                                <img src="src/images/menu/coposcafemenu.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="menu-geral">
+                                    <a href="#" id="menu-MATE">MATE</a>
+                                    <div class="menu__submenu">
+                                        <div class="submenu__inner">
+                                            <div class="submenu__has__banner">
+                                                <ul role="menu">
+                                                    <li class="menu-geral-filho" role="none">
+                                                        <a href="#" class="menu-geral-filho" style="text-transform: uppercase;">Mate</a>
+                                                        <ul>
+                                                            <li class="menu-geral-neto"><a href="#">Garrafa Térmica </a></li>
+                                                            <li class="menu-geral-neto"><a href="#">Cuia Térmico </a></li>
+                                                            <li class="menu-geral-neto"><a href="#">Acessórios </a></li>
+                                                            <li class="menu-geral-neto"><a href="#">Ver todos </a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="menu-geral-filho" role="none">
+                                                        <a href="#" class="menu-geral-filho" style="text-transform: uppercase;">Series</a>
+                                                        <ul>
+                                                            <li class="menu-geral-neto"><a href="#">Master Series </a></li>
+                                                            <li class="menu-geral-neto"><a href="#">Mate System </a></li>
+                                                            <li class="menu-geral-neto"><a href="#">Classic Series </a></li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="submenu__banner">
+                                                <img src="src/images/menu/matemenu.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="menu-geral">
+                                    <a href="#" id="menu-KIDS">KIDS</a>
+                                    <div class="menu__submenu">
+                                        <div class="submenu__inner">
+                                            <div class="submenu__has__banner">
+                                                <ul role="menu">
+                                                    <li class="menu-geral-filho" role="none">
+                                                        <a href="#" class="menu-geral-filho" style="text-transform: uppercase;">Kids</a>
+                                                        <ul>
+                                                            <li class="menu-geral-neto"><a href="#">Garrafa Térmica </a></li>
+                                                            <li class="menu-geral-neto"><a href="#">Pote Térmico </a></li>
+                                                            <li class="menu-geral-neto"><a href="#">Ver todos </a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="menu-geral-filho" role="none">
+                                                        <a href="#" class="menu-geral-filho" style="text-transform: uppercase;">Series</a>
+                                                        <ul>
+                                                            <li class="menu-geral-neto"><a href="#"> </a>Adventure Series</li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="submenu__banner">
+                                                <img src="src/images/menu/kidsmenu.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="menu-geral">
+                                    <a href="#" id="menu-CAMP">CAMPING</a>
+                                    <div class="menu__submenu">
+                                        <div class="submenu__inner">
+                                            <div class="submenu__has__banner">
+                                                <ul role="menu">
+                                                    <li class="menu-geral-filho" role="none">
+                                                        <a href="#" class="menu-geral-filho" style="text-transform: uppercase;">Camping</a>
+                                                        <ul>
+                                                            <li class="menu-geral-neto"><a href="#">Kit Acampamento </a></li>
+                                                            <li class="menu-geral-neto"><a href="#">Pote Térmico </a></li>
+                                                            <li class="menu-geral-neto"><a href="#">Prensa Francesa </a></li>
+                                                            <li class="menu-geral-neto"><a href="#">Ver todos </a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="menu-geral-filho" role="none">
+                                                        <a href="#" class="menu-geral-filho" style="text-transform: uppercase;">Series</a>
+                                                        <ul>
+                                                            <li class="menu-geral-neto"><a href="#">Adventure Series </a></li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="submenu__banner">
+                                                <img src="src/images/menu/panelamenu.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="menu-destaque">
+                                    <a class="menu-geral-filho" href="#">KITS</a>
+                                </li>
+                                <li class="menu-geral">
+                                    <a href="#" id="menu-EXP">EXPLORE</a>
+                                    <div class="menu__submenu">
+                                        <div class="submenu__inner">
+                                            <div class="submenu__has__banner">
+                                                <ul role="menu">
+                                                    <li class="menu-geral-filho" role="none">
+                                                        <a href="#" class="menu-geral-filho" style="text-transform: uppercase;">Camping</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="submenu__banner">
+                                                <img src="src/images/menu/jovenstrilhamenu.webp" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+<div class="page__home">
+    <div class="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="src/images/corrosel/semana chimarrao.webp" alt="Imagem 1">
+                <div class="carousel--text component__container">
+                    <h2>FLIP STRAW</h2><br/>
+                    <p>Novas cores: Raspberry e Jade</p>
+                    <a href="#">VEJA MAIS</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="src/images/corrosel/garrafascolor.webp" alt="Imagem 2">
+                <div class="carousel--text component__container">
+                    <h2>LINHA BAR</h2><br/>
+                    <p>Bebida gelada até o último gole</p>
+                    <a href="#">VEJA MAIS</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="src/images/corrosel/pessoas.webp" alt="Imagem 3">
+                <div class="carousel--text component__container">
+                    <h2>LINHA CAFÉ</h2><br/>
+                    <p>Bebida na temperatura perfeita em qualquer lugar</p>
+                    <a href="#">VEJA MAIS</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="src/images/corrosel/2mulheres.webp" alt="Imagem 4">
+                <div class="carousel--text component__container">
+                    <h2>AEROLIGHT FAST FLOW</h2><br/>
+                    <p>Mais leve para você ir mais longe</p>
+                    <a href="#">VEJA MAIS</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="src/images/corrosel/mais_pessoas.jpg" alt="Imagem 5">
+                
+            </div>
+        </div>
+        <a class="carousel-control prev" href="#">
+            <span class="material-symbols-outlined"></span>
+        </a>
+        <a class="carousel-control next" style="        background: linear-gradient( to right, rgba(156, 152, 152, 0.032),rgba(11, 11, 11, 0.722)) ;        " href="#">
+            <span class="material-symbols-outlined"></span>
+        </a>
+    </div>
+    <div class="home__ruler">
+        <div class="rule__container component__container">
+            <div class="ruler__row component__row">
+                <div class="ruler__swiper">
+                    <div class="swiper swiper-container-horizontal">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide swiper-slide-active">
+                                <span>CARTÃO ATÉ 12X S/JUROS</span>
+                            </div>
+                            <div class="swiper-slide swiper-slide-next">
+                                <span>FRETE GRÁTIS SUL/SUDESTE</span>
+                            </div>
+                            <div class="swiper-slide">
+                                <span>PAGUE NO PIX</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+        </div>
+    </div>
+    <div class="home__showcase">
+        <div class="showcase__container component__container">
+            <div class="showcase__row component__row">
+                <div class="showcase__title">
+                    <div class="title__inner">
+                        <h2>EM DESTAQUE</h2>
+                        <p>Os mais queridos da Legião para te acompanhar no dia a dia</p>
+                    </div>
+                    <a href="#">VER TODOS</a>
+                </div>
+            
+                <div class="showcase__wrapper">
+                    <div class="showcase__inner">
+                        <div class="swiper showcase__swiper swiper-container-horizontal">
+                            <div class="swiper-wrapper">
+                                <div class="carousel-container">
+                                    <div class="carousel-product">
+                                        <div class="swiper-slide">
+                                            <div class="spot">
+                                                <div class="spot__image">
+                                                    <button type="button">
+                                                        <span class="material-symbols-outlined"></span>
+                                                    </button>
+                                                    <div class="spot__tags">
+                                                        <span class="tags-new">NEW</span>
+                                                        <span class="tags-image">
+                                                            <img src="https://stanley.fbitsstatic.net/img/s/1135/db3cebf9-9b41-47c3-be93-4ca0b7d3f12a.png?v=202404171538">
+                                                        </span>
+                                                    </div>
+                                                    <a href="#">
+                                                        <div class="spot-main-image">
+                                                            <img  class="spot-image" src="src/images/garrafascoloridas/verdeazul1.webp">
+                                                        </div>
+                                                        <div class="spot-overlay">
+                                                            <img class="spot-image" src="src/images/garrafascoloridas/verdeazul2.webp" >
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="spot__content">
+                                                    <div class="spot__name">
+                                                        <a href="#">
+                                                            <h3>Garrafa Térmica Flip Straw Stanley Jade | 651ML</h3>
+                                                        </a>
+                                                    </div>
+                                                    <div class="spot__flex">
+                                                        <div class="spot__price">
+                                                            <div class="price__normal">
+                                                                <span>R$ 269,00</span>
+                                                            </div>
+                                                            <div class="price__method">
+                                                                <span>
+                                                                    <b>12x de R$ 22,42 sem juros no CARTÃO</b>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="spot__button">
+                                                            <button>
+                                                                <div class="spot__button--img">
+                                                                    <img class="spot-image" src="https://Stanley.fbitsstatic.net/sf/img/icons/spot-buy.svg?theme=main&amp;v=202404171538" data-src="https://Stanley.fbitsstatic.net/sf/img/icons/spot-buy.svg?theme=main&amp;v=202404171538" data-srcset="https://Stanley.fbitsstatic.net/sf/img/icons/spot-buy.svg?theme=main&amp;v=202404171538" alt="Ícone para compra direto para o carrinho" width="50" height="50" srcset="https://Stanley.fbitsstatic.net/sf/img/icons/spot-buy.svg?theme=main&amp;v=202404171538">
+                                                                </div>
+                                                                <div class="spot__button--img--hover">
+                                                                    <img class="spot-image" src="https://Stanley.fbitsstatic.net/sf/img/icons/spot-buy-hover.svg?theme=main&amp;v=202404171538" data-src="https://Stanley.fbitsstatic.net/sf/img/icons/spot-buy-hover.svg?theme=main&amp;v=202404171538" data-srcset="https://Stanley.fbitsstatic.net/sf/img/icons/spot-buy-hover.svg?theme=main&amp;v=202404171538" alt="Ícone para compra direto para o carrinho" width="50" height="50" srcset="https://Stanley.fbitsstatic.net/sf/img/icons/spot-buy-hover.svg?theme=main&amp;v=202404171538">
+                                                                </div>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                            <div class="spot">
+                                                <div class="spot__image">
+                                                    <button type="button">
+                                                        <span class="material-symbols-outlined"></span>
+                                                    </button>
+                                                    <div class="spot__tags">
+                                                        <span class="tags-new">NEW</span>
+                                                        <span class="tags-image">
+                                                            <img src="https://stanley.fbitsstatic.net/img/s/1135/db3cebf9-9b41-47c3-be93-4ca0b7d3f12a.png?v=202404171538">
+                                                        </span>
+                                                    </div>
+                                                    <a href="#">
+                                                        <div class="spot-main-image">
+                                                            <img  class="spot-image" src="src/images/garrafascoloridas/rosa1.webp">
+                                                        </div>
+                                                        <div class="spot-overlay">
+                                                            <img class="spot-image" src="src/images/garrafascoloridas/rosa2.webp" >
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="spot__content">
+                                                    <div class="spot__name">
+                                                        <a href="#">
+                                                            <h3>Garrafa Térmica Flip Straw Stanley Raspberry | 651ML</h3>
+                                                        </a>
+                                                    </div>
+                                                    <div class="spot__flex">
+                                                        <div class="spot__price">
+                                                            <div class="price__normal">
+                                                                <span>R$ 269,00</span>
+                                                            </div>
+                                                            <div class="price__method">
+                                                                <span>
+                                                                    <b>12x de R$ 22,42 sem juros no CARTÃO</b>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="spot__button">
+                                                            <button>
+                                                                <div class="spot__button--img">
+                                                                    <img class="spot-image" src="https://Stanley.fbitsstatic.net/sf/img/icons/spot-buy.svg?theme=main&amp;v=202404171538" data-src="https://Stanley.fbitsstatic.net/sf/img/icons/spot-buy.svg?theme=main&amp;v=202404171538" data-srcset="https://Stanley.fbitsstatic.net/sf/img/icons/spot-buy.svg?theme=main&amp;v=202404171538" alt="Ícone para compra direto para o carrinho" width="50" height="50" srcset="https://Stanley.fbitsstatic.net/sf/img/icons/spot-buy.svg?theme=main&amp;v=202404171538">
+                                                                </div>
+                                                                <div class="spot__button--img--hover">
+                                                                    <img class="spot-image" src="https://Stanley.fbitsstatic.net/sf/img/icons/spot-buy-hover.svg?theme=main&amp;v=202404171538" data-src="https://Stanley.fbitsstatic.net/sf/img/icons/spot-buy-hover.svg?theme=main&amp;v=202404171538" data-srcset="https://Stanley.fbitsstatic.net/sf/img/icons/spot-buy-hover.svg?theme=main&amp;v=202404171538" alt="Ícone para compra direto para o carrinho" width="50" height="50" srcset="https://Stanley.fbitsstatic.net/sf/img/icons/spot-buy-hover.svg?theme=main&amp;v=202404171538">
+                                                                </div>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                            <div class="spot">
+                                                <div class="spot__image">
+                                                    <a href="#">
+                                                        <div class="spot-main-image">
+                                                            <img  class="spot-image" src="https://stanley.fbitsstatic.net/img/p/copo-termico-de-cerveja-com-tampa-stanley-473ml-98661/285466-6.jpg?w=306&h=306&v=no-value">
+                                                        </div>
+                                                        <div class="spot-overlay">
+                                                            <img class="spot-image" src="https://stanley.fbitsstatic.net/img/p/copo-termico-de-cerveja-com-tampa-stanley-473ml-98661/285466-2.jpg?w=306&h=306&v=no-value" >
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="spot__content">
+                                                    <div class="spot__name">
+                                                        <a href="#">
+                                                            <h3>Copo Térmico de Cerveja (com tampa) Stanley | 473ML</h3>
+                                                        </a>
+                                                    </div>
+                                                    <div class="spot__flex">
+                                                        <div class="spot__price">
+                                                            <div class="price__normal">
+                                                                <span>R$ 220,00</span>
+                                                            </div>
+                                                            <div class="price__method">
+                                                                <span>
+                                                                    <b>12x de R$ 18,33 sem juros no CARTÃO</b>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="spot__button">
+                                                            <button>
+                                                                <div class="spot__button--img">
+                                                                    <img class="spot-image" src="https://Stanley.fbitsstatic.net/sf/img/icons/spot-buy.svg?theme=main&amp;v=202404171538" data-src="https://Stanley.fbitsstatic.net/sf/img/icons/spot-buy.svg?theme=main&amp;v=202404171538" data-srcset="https://Stanley.fbitsstatic.net/sf/img/icons/spot-buy.svg?theme=main&amp;v=202404171538" alt="Ícone para compra direto para o carrinho" width="50" height="50" srcset="https://Stanley.fbitsstatic.net/sf/img/icons/spot-buy.svg?theme=main&amp;v=202404171538">
+                                                                </div>
+                                                                <div class="spot__button--img--hover">
+                                                                    <img class="spot-image" src="https://Stanley.fbitsstatic.net/sf/img/icons/spot-buy-hover.svg?theme=main&amp;v=202404171538" data-src="https://Stanley.fbitsstatic.net/sf/img/icons/spot-buy-hover.svg?theme=main&amp;v=202404171538" data-srcset="https://Stanley.fbitsstatic.net/sf/img/icons/spot-buy-hover.svg?theme=main&amp;v=202404171538" alt="Ícone para compra direto para o carrinho" width="50" height="50" srcset="https://Stanley.fbitsstatic.net/sf/img/icons/spot-buy-hover.svg?theme=main&amp;v=202404171538">
+                                                                </div>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="spot">
+                                                    <div class="spot__image">
+                                            <a href="#">
+                                                <div class="spot-main-image">
+                                                    <img  class="spot-image" src="https://stanley.fbitsstatic.net/img/p/copo-termico-de-cerveja-stanley-473ml-98560/285358-7.jpg?w=306&h=306&v=no-value">
+                                                </div>
+                                                <div class="spot-overlay">
+                                                    <img class="spot-image" src="https://stanley.fbitsstatic.net/img/p/copo-termico-de-cerveja-stanley-473ml-98560/285358-8.jpg?w=306&h=306&v=no-value" >
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="spot__content">
+                                            <div class="spot__name">
+                                                <a href="#">
+                                                    <h3>Copo Térmico de Cerveja Stanley | 473ML</h3>
+                                                </a>
+                                            </div>
+                                            <div class="spot__flex">
+                                                <div class="spot__price">
+                                                    <div class="price__normal">
+                                                        <span>R$ 165,00</span>
+                                                    </div>
+                                                    <div class="price__method">
+                                                        <span>
+                                                            <b>12x de R$ 13,75 sem juros no CARTÃO</b>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="spot__button">
+                                                    <button>
+                                                        <div class="spot__button--img">
+                                                            <img class="spot-image" src="https://Stanley.fbitsstatic.net/sf/img/icons/spot-buy.svg?theme=main&amp;v=202404171538" data-src="https://Stanley.fbitsstatic.net/sf/img/icons/spot-buy.svg?theme=main&amp;v=202404171538" data-srcset="https://Stanley.fbitsstatic.net/sf/img/icons/spot-buy.svg?theme=main&amp;v=202404171538" alt="Ícone para compra direto para o carrinho" width="50" height="50" srcset="https://Stanley.fbitsstatic.net/sf/img/icons/spot-buy.svg?theme=main&amp;v=202404171538">
+                                                        </div>
+                                                        <div class="spot__button--img--hover">
+                                                            <img class="spot-image" src="https://Stanley.fbitsstatic.net/sf/img/icons/spot-buy-hover.svg?theme=main&amp;v=202404171538" data-src="https://Stanley.fbitsstatic.net/sf/img/icons/spot-buy-hover.svg?theme=main&amp;v=202404171538" data-srcset="https://Stanley.fbitsstatic.net/sf/img/icons/spot-buy-hover.svg?theme=main&amp;v=202404171538" alt="Ícone para compra direto para o carrinho" width="50" height="50" srcset="https://Stanley.fbitsstatic.net/sf/img/icons/spot-buy-hover.svg?theme=main&amp;v=202404171538">
+                                                        </div>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                            <div class="spot">
+                                                <div class="spot__image">
+                                                    <a href="#">
+                                                        <div class="spot-main-image">
+                                                            <img  class="spot-image" src="https://stanley.fbitsstatic.net/img/p/copo-termico-de-cerveja-stanley-473ml-98559/285357-7.jpg?w=306&h=306&v=no-value">
+                                                        </div>
+                                                        <div class="spot-overlay">
+                                                            <img class="spot-image" src="https://stanley.fbitsstatic.net/img/p/copo-termico-de-cerveja-stanley-473ml-98559/285357-8.jpg?w=306&h=306&v=no-value" >
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="spot__content">
+                                                    <div class="spot__name">
+                                                        <a href="#">
+                                                            <h3>Copo Térmico de Cerveja Stanley | 473ML</h3>
+                                                        </a>
+                                                    </div>
+                                                    <div class="spot__flex">
+                                                        <div class="spot__price">
+                                                            <div class="price__normal">
+                                                                <span>R$ 165,00</span>
+                                                            </div>
+                                                            <div class="price__method">
+                                                                <span>
+                                                                    <b>12x de R$ 13,75 sem juros no CARTÃO</b>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="spot__button">
+                                                            <button>
+                                                                <div class="spot__button--img">
+                                                                    <img class="spot-image" src="https://Stanley.fbitsstatic.net/sf/img/icons/spot-buy.svg?theme=main&amp;v=202404171538" data-src="https://Stanley.fbitsstatic.net/sf/img/icons/spot-buy.svg?theme=main&amp;v=202404171538" data-srcset="https://Stanley.fbitsstatic.net/sf/img/icons/spot-buy.svg?theme=main&amp;v=202404171538" alt="Ícone para compra direto para o carrinho" width="50" height="50" srcset="https://Stanley.fbitsstatic.net/sf/img/icons/spot-buy.svg?theme=main&amp;v=202404171538">
+                                                                </div>
+                                                                <div class="spot__button--img--hover">
+                                                                    <img class="spot-image" src="https://Stanley.fbitsstatic.net/sf/img/icons/spot-buy-hover.svg?theme=main&amp;v=202404171538" data-src="https://Stanley.fbitsstatic.net/sf/img/icons/spot-buy-hover.svg?theme=main&amp;v=202404171538" data-srcset="https://Stanley.fbitsstatic.net/sf/img/icons/spot-buy-hover.svg?theme=main&amp;v=202404171538" alt="Ícone para compra direto para o carrinho" width="50" height="50" srcset="https://Stanley.fbitsstatic.net/sf/img/icons/spot-buy-hover.svg?theme=main&amp;v=202404171538">
+                                                                </div>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                            <div class="spot">
+                                                <div class="spot__image">
+                                                    <a href="#">
+                                                        <div class="spot-main-image">
+                                                            <img  class="spot-image" src="https://stanley.fbitsstatic.net/img/p/copo-termico-de-cerveja-stanley-473ml-98559/285357-7.jpg?w=306&h=306&v=no-value">
+                                                        </div>
+                                                        <div class="spot-overlay">
+                                                            <img class="spot-image" src="https://stanley.fbitsstatic.net/img/p/copo-termico-de-cerveja-stanley-473ml-98559/285357-8.jpg?w=306&h=306&v=no-value" >
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="spot__content">
+                                                    <div class="spot__name">
+                                                        <a href="#">
+                                                            <h3>Copo Térmico de Cerveja Stanley | 473ML</h3>
+                                                        </a>
+                                                    </div>
+                                                    <div class="spot__flex">
+                                                        <div class="spot__price">
+                                                            <div class="price__normal">
+                                                                <span>R$ 165,00</span>
+                                                            </div>
+                                                            <div class="price__method">
+                                                                <span>
+                                                                    <b>12x de R$ 13,75 sem juros no CARTÃO</b>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="spot__button">
+                                                            <button>
+                                                                <div class="spot__button--img">
+                                                                    <img class="spot-image" src="https://Stanley.fbitsstatic.net/sf/img/icons/spot-buy.svg?theme=main&amp;v=202404171538" data-src="https://Stanley.fbitsstatic.net/sf/img/icons/spot-buy.svg?theme=main&amp;v=202404171538" data-srcset="https://Stanley.fbitsstatic.net/sf/img/icons/spot-buy.svg?theme=main&amp;v=202404171538" alt="Ícone para compra direto para o carrinho" width="50" height="50" srcset="https://Stanley.fbitsstatic.net/sf/img/icons/spot-buy.svg?theme=main&amp;v=202404171538">
+                                                                </div>
+                                                                <div class="spot__button--img--hover">
+                                                                    <img class="spot-image" src="https://Stanley.fbitsstatic.net/sf/img/icons/spot-buy-hover.svg?theme=main&amp;v=202404171538" data-src="https://Stanley.fbitsstatic.net/sf/img/icons/spot-buy-hover.svg?theme=main&amp;v=202404171538" data-srcset="https://Stanley.fbitsstatic.net/sf/img/icons/spot-buy-hover.svg?theme=main&amp;v=202404171538" alt="Ícone para compra direto para o carrinho" width="50" height="50" srcset="https://Stanley.fbitsstatic.net/sf/img/icons/spot-buy-hover.svg?theme=main&amp;v=202404171538">
+                                                                </div>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                            <div class="spot">
+                                                <div class="spot__image">
+                                                    <a href="#">
+                                                        <div class="spot-main-image">
+                                                            <img  class="spot-image" src="https://stanley.fbitsstatic.net/img/p/copo-termico-de-cerveja-stanley-473ml-98559/285357-7.jpg?w=306&h=306&v=no-value">
+                                                        </div>
+                                                        <div class="spot-overlay">
+                                                            <img class="spot-image" src="https://stanley.fbitsstatic.net/img/p/copo-termico-de-cerveja-stanley-473ml-98559/285357-8.jpg?w=306&h=306&v=no-value" >
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="spot__content">
+                                                    <div class="spot__name">
+                                                        <a href="#">
+                                                            <h3>Copo Térmico de Cerveja Stanley | 473ML</h3>
+                                                        </a>
+                                                    </div>
+                                                    <div class="spot__flex">
+                                                        <div class="spot__price">
+                                                            <div class="price__normal">
+                                                                <span>R$ 165,00</span>
+                                                            </div>
+                                                            <div class="price__method">
+                                                                <span>
+                                                                    <b>12x de R$ 13,75 sem juros no CARTÃO</b>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="spot__button">
+                                                            <button>
+                                                                <div class="spot__button--img">
+                                                                    <img class="spot-image" src="https://Stanley.fbitsstatic.net/sf/img/icons/spot-buy.svg?theme=main&amp;v=202404171538" data-src="https://Stanley.fbitsstatic.net/sf/img/icons/spot-buy.svg?theme=main&amp;v=202404171538" data-srcset="https://Stanley.fbitsstatic.net/sf/img/icons/spot-buy.svg?theme=main&amp;v=202404171538" alt="Ícone para compra direto para o carrinho" width="50" height="50" srcset="https://Stanley.fbitsstatic.net/sf/img/icons/spot-buy.svg?theme=main&amp;v=202404171538">
+                                                                </div>
+                                                                <div class="spot__button--img--hover">
+                                                                    <img class="spot-image" src="https://Stanley.fbitsstatic.net/sf/img/icons/spot-buy-hover.svg?theme=main&amp;v=202404171538" data-src="https://Stanley.fbitsstatic.net/sf/img/icons/spot-buy-hover.svg?theme=main&amp;v=202404171538" data-srcset="https://Stanley.fbitsstatic.net/sf/img/icons/spot-buy-hover.svg?theme=main&amp;v=202404171538" alt="Ícone para compra direto para o carrinho" width="50" height="50" srcset="https://Stanley.fbitsstatic.net/sf/img/icons/spot-buy-hover.svg?theme=main&amp;v=202404171538">
+                                                                </div>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                            <div class="spot">
+                                                <div class="spot__image">
+                                                    <a href="#">
+                                                        <div class="spot-main-image">
+                                                            <img  class="spot-image" src="https://stanley.fbitsstatic.net/img/p/copo-termico-de-cerveja-stanley-473ml-98559/285357-7.jpg?w=306&h=306&v=no-value">
+                                                        </div>
+                                                        <div class="spot-overlay">
+                                                            <img class="spot-image" src="https://stanley.fbitsstatic.net/img/p/copo-termico-de-cerveja-stanley-473ml-98559/285357-8.jpg?w=306&h=306&v=no-value" >
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="spot__content">
+                                                    <div class="spot__name">
+                                                        <a href="#">
+                                                            <h3>Copo Térmico de Cerveja Stanley | 473ML</h3>
+                                                        </a>
+                                                    </div>
+                                                    <div class="spot__flex">
+                                                        <div class="spot__price">
+                                                            <div class="price__normal">
+                                                                <span>R$ 165,00</span>
+                                                            </div>
+                                                            <div class="price__method">
+                                                                <span>
+                                                                    <b>12x de R$ 13,75 sem juros no CARTÃO</b>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="spot__button">
+                                                            <button>
+                                                                <div class="spot__button--img">
+                                                                    <img class="spot-image" src="https://Stanley.fbitsstatic.net/sf/img/icons/spot-buy.svg?theme=main&amp;v=202404171538" data-src="https://Stanley.fbitsstatic.net/sf/img/icons/spot-buy.svg?theme=main&amp;v=202404171538" data-srcset="https://Stanley.fbitsstatic.net/sf/img/icons/spot-buy.svg?theme=main&amp;v=202404171538" alt="Ícone para compra direto para o carrinho" width="50" height="50" srcset="https://Stanley.fbitsstatic.net/sf/img/icons/spot-buy.svg?theme=main&amp;v=202404171538">
+                                                                </div>
+                                                                <div class="spot__button--img--hover">
+                                                                    <img class="spot-image" src="https://Stanley.fbitsstatic.net/sf/img/icons/spot-buy-hover.svg?theme=main&amp;v=202404171538" data-src="https://Stanley.fbitsstatic.net/sf/img/icons/spot-buy-hover.svg?theme=main&amp;v=202404171538" data-srcset="https://Stanley.fbitsstatic.net/sf/img/icons/spot-buy-hover.svg?theme=main&amp;v=202404171538" alt="Ícone para compra direto para o carrinho" width="50" height="50" srcset="https://Stanley.fbitsstatic.net/sf/img/icons/spot-buy-hover.svg?theme=main&amp;v=202404171538">
+                                                                </div>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                </div>
+                                            </div>
+                                    </div>
+                                    <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+                                    <button class="next" onclick="moveSlide(1)">&#10095;</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="home__banner">
+        <div class="banner__desktop">
+            <div class="banner__text">
+                <a href="#">
+                    <img src="src/images/copobrinde.jpg" alt="">
+                </a>
+                <div class="text__container component__container">
+                    <a href="#">
+                        <h2>LINHA HAPPY HOUR</h2>
+                        <p>
+                            Se você ama os copos clássicos de cerveja, vai amar essa novidade da linha bar Stanley.
+                        </p>
+                        <span class="text__cta">VEJA MAIS</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="home__colors">
+        <div class="colors__container component__container">
+            <div class="colors__row component__row">
+                <div class="colors__title">
+                    <div class="title__inner">
+                        <h2>Sua cor, seu jeito</h2>
+                        <p>
+                            Explore nossa paleta de cores e comece ou aumente a sua coleção monocromática ou colorida. Você vai desejar cada uma delas.
+                        </p>
+                    </div>
+                    <a href="#">Ver Todos</a>
+                </div>
+                <div class="colors__wrapper">
+                        <div class="swiper colors__swiper swiper-container-horizontal">
+                            <div class="swiper-wrapper">
+                                <div class="carousel-container">
+                                    <div class="carousel-product">
+                                        <div class="swiper-slide" style="width: 171px;">
+                                            <a href="#">
+                                                <div class="color__banner">
+                                                    <img class="" data-src="https://stanley.fbitsstatic.net/media/preto.jpg" data-srcset="https://stanley.fbitsstatic.net/media/preto.jpg" height="250" src="https://stanley.fbitsstatic.net/media/preto.jpg" width="150" srcset="https://stanley.fbitsstatic.net/media/preto.jpg">
+                                                </div>
+                                                <div class="color__title">
+                                                    <h3>Preto</h3>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="swiper-slide" style="width: 171px;">
+                                            <a href="#">
+                                                <div class="color__banner">
+                                                    <img class="" data-src="https://stanley.fbitsstatic.net/media/preto.jpg" data-srcset="https://stanley.fbitsstatic.net/media/preto.jpg" height="250" src="https://stanley.fbitsstatic.net/media/preto.jpg" width="150" srcset="https://stanley.fbitsstatic.net/media/preto.jpg">
+                                                </div>
+                                                <div class="color__title">
+                                                    <h3>Preto</h3>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="swiper-slide" style="width: 171px;">
+                                            <a href="#">
+                                                <div class="color__banner">
+                                                    <img class="" data-src="https://stanley.fbitsstatic.net/media/preto.jpg" data-srcset="https://stanley.fbitsstatic.net/media/preto.jpg" height="250" src="https://stanley.fbitsstatic.net/media/preto.jpg" width="150" srcset="https://stanley.fbitsstatic.net/media/preto.jpg">
+                                                </div>
+                                                <div class="color__title">
+                                                    <h3>Preto</h3>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="swiper-slide" style="width: 171px;">
+                                            <a href="#">
+                                                <div class="color__banner">
+                                                    <img class="" data-src="https://stanley.fbitsstatic.net/media/preto.jpg" data-srcset="https://stanley.fbitsstatic.net/media/preto.jpg" height="250" src="https://stanley.fbitsstatic.net/media/preto.jpg" width="150" srcset="https://stanley.fbitsstatic.net/media/preto.jpg">
+                                                </div>
+                                                <div class="color__title">
+                                                    <h3>Preto</h3>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="swiper-slide" style="width: 171px;">
+                                            <a href="#">
+                                                <div class="color__banner">
+                                                    <img class="" data-src="https://stanley.fbitsstatic.net/media/preto.jpg" data-srcset="https://stanley.fbitsstatic.net/media/preto.jpg" height="250" src="https://stanley.fbitsstatic.net/media/preto.jpg" width="150" srcset="https://stanley.fbitsstatic.net/media/preto.jpg">
+                                                </div>
+                                                <div class="color__title">
+                                                    <h3>Preto</h3>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="swiper-slide" style="width: 171px;">
+                                            <a href="#">
+                                                <div class="color__banner">
+                                                    <img class="" data-src="https://stanley.fbitsstatic.net/media/preto.jpg" data-srcset="https://stanley.fbitsstatic.net/media/preto.jpg" height="250" src="https://stanley.fbitsstatic.net/media/preto.jpg" width="150" srcset="https://stanley.fbitsstatic.net/media/preto.jpg">
+                                                </div>
+                                                <div class="color__title">
+                                                    <h3>Preto</h3>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="swiper-slide" style="width: 171px;">
+                                            <a href="#">
+                                                <div class="color__banner">
+                                                    <img class="" data-src="https://stanley.fbitsstatic.net/media/preto.jpg" data-srcset="https://stanley.fbitsstatic.net/media/preto.jpg" height="250" src="https://stanley.fbitsstatic.net/media/preto.jpg" width="150" srcset="https://stanley.fbitsstatic.net/media/preto.jpg">
+                                                </div>
+                                                <div class="color__title">
+                                                    <h3>Preto</h3>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="swiper-slide" style="width: 171px;">
+                                            <a href="#">
+                                                <div class="color__banner">
+                                                    <img class="" data-src="https://stanley.fbitsstatic.net/media/preto.jpg" data-srcset="https://stanley.fbitsstatic.net/media/preto.jpg" height="250" src="https://stanley.fbitsstatic.net/media/preto.jpg" width="150" srcset="https://stanley.fbitsstatic.net/media/preto.jpg">
+                                                </div>
+                                                <div class="color__title">
+                                                    <h3>Preto</h3>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="swiper-slide" style="width: 171px;">
+                                            <a href="#">
+                                                <div class="color__banner">
+                                                    <img class="" data-src="https://stanley.fbitsstatic.net/media/preto.jpg" data-srcset="https://stanley.fbitsstatic.net/media/preto.jpg" height="250" src="https://stanley.fbitsstatic.net/media/preto.jpg" width="150" srcset="https://stanley.fbitsstatic.net/media/preto.jpg">
+                                                </div>
+                                                <div class="color__title">
+                                                    <h3>Preto</h3>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="swiper-slide" style="width: 171px;">
+                                            <a href="#">
+                                                <div class="color__banner">
+                                                    <img class="" data-src="https://stanley.fbitsstatic.net/media/preto.jpg" data-srcset="https://stanley.fbitsstatic.net/media/preto.jpg" height="250" src="https://stanley.fbitsstatic.net/media/preto.jpg" width="150" srcset="https://stanley.fbitsstatic.net/media/preto.jpg">
+                                                </div>
+                                                <div class="color__title">
+                                                    <h3>Preto</h3>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="swiper-slide" style="width: 171px;">
+                                            <a href="#">
+                                                <div class="color__banner">
+                                                    <img class="" data-src="https://stanley.fbitsstatic.net/media/preto.jpg" data-srcset="https://stanley.fbitsstatic.net/media/preto.jpg" height="250" src="https://stanley.fbitsstatic.net/media/preto.jpg" width="150" srcset="https://stanley.fbitsstatic.net/media/preto.jpg">
+                                                </div>
+                                                <div class="color__title">
+                                                    <h3>Preto</h3>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+                                    <button class="next" onclick="moveSlide(1)">&#10095;</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+    <script src="src/scripts/main.js"></script>
 </body>
 </html>
