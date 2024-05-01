@@ -34,7 +34,8 @@
                 </div>
                 </div>
         </div>
-        </div>
+    </div>
+
         <div class="header--desktop">
             <div class="header--container component__container">
                 <div class="header__row component__row">
@@ -259,7 +260,287 @@
                     </div>
                 </div>
             </div>
+    </div>
+
+        <div class="header__mobile">
+    <div class="header--container component__container">
+        <div class="header__row component__row">
+            <div class="header__tabs" id="headerTabs">
+                <div class="tabs__inner">
+                    <svg xmlns="https://www.w3.org/2000/svg" width="24" height="16" viewBox="0 0 24 16" fill="none">
+                        <rect width="24" height="2" fill="#222426"></rect>
+                        <rect y="7" width="24" height="2" fill="#222426"></rect>
+                        <rect y="14" width="24" height="2" fill="#222426"></rect>
+                    </svg>
+                </div>
+            </div>
+            <div class="header--logo">
+                <a href="#">
+                    <img src="https://stanley.fbitsstatic.net/sf/img/logo-stanley.svg?theme=main&amp;v=202404261032" alt="Logo da Stanley">
+                </a>
+            </div>
+            <div class="header--configs">
+                <div class="config__search">
+                    <div class="search__icon">
+                        <svg xmlns="https://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21" fill="none"><path d="M19.5654 19.5654L14.4599 14.5021M16.6962 8.8481C16.6962 13.1941 13.1941 16.6962 8.8481 16.6962C4.50211 16.6962 1 13.1519 1 8.8481C1 4.5443 4.50211 1 8.8481 1C13.1519 1 16.6962 4.50211 16.6962 8.8481Z" stroke="#222426" stroke-width="1.6" stroke-miterlimit="10"></path></svg>
+                    </div>
+                </div>
+
+                <div class="config__wish">
+                    <div class="icon">
+                        <a href="#">
+                            <svg xmlns="https://www.w3.org/2000/svg" width="23" height="19" viewBox="0 0 23 19" fill="none"><path d="M12.5102 17.884L12.5078 17.8862C11.9662 18.3726 11.1278 18.3723 10.5865 17.879L10.5828 17.8757L10.4631 17.7681L10.4618 17.7669C7.58904 15.1956 5.27872 13.1232 3.69441 11.1804C2.12081 9.25072 1.34393 7.54362 1.40578 5.71161C1.46295 4.11525 2.29173 2.58464 3.62194 1.68867L3.62235 1.68839C6.13585 -0.00698333 9.26775 0.767731 10.9721 2.74117L11.5397 3.39842L12.1073 2.74117C13.8132 0.765945 16.9442 -0.0159097 19.4554 1.68731L19.4574 1.68867C20.7878 2.58476 21.6167 4.11568 21.6736 5.71229L21.6736 5.71289C21.7404 7.54378 20.9644 9.25025 19.3889 11.1832C17.8072 13.1239 15.5024 15.1955 12.6398 17.7684L12.6191 17.7871L12.6164 17.7895L12.5102 17.884Z" stroke="#222426" stroke-width="1.5"></path></svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="config__cart">
+                    <div class="cart__icon">
+                        <svg xmlns="https://www.w3.org/2000/svg" width="25" height="20" viewBox="0 0 25 20" fill="none"><g clip-path="url(#clip0_566_2718)"><path d="M4.82773 4.59999H23.5477L20.3877 14.84H7.62773L3.74773 0.799988H0.427734" stroke="#222426" stroke-width="1.6" stroke-miterlimit="10"></path><path d="M10.0277 19.6001C10.4696 19.6001 10.8277 19.2419 10.8277 18.8001C10.8277 18.3582 10.4696 18.0001 10.0277 18.0001C9.58589 18.0001 9.22772 18.3582 9.22772 18.8001C9.22772 19.2419 9.58589 19.6001 10.0277 19.6001Z" fill="#222426" stroke="#222426" stroke-width="0.8" stroke-miterlimit="10"></path><path d="M18.0277 19.6001C18.4696 19.6001 18.8277 19.2419 18.8277 18.8001C18.8277 18.3582 18.4696 18.0001 18.0277 18.0001C17.5859 18.0001 17.2277 18.3582 17.2277 18.8001C17.2277 19.2419 17.5859 19.6001 18.0277 19.6001Z" fill="#222426" stroke="#222426" stroke-width="0.8" stroke-miterlimit="10"></path></g><defs><clipPath id="clip0_566_2718"><rect width="24.2" height="20" fill="white" transform="translate(0.427734)"></rect></clipPath></defs></svg>
+                    </div>
+                </div>
+            </div>
         </div>
+    </div>
+    <div class="header__mask" style="opacity: -0.1; display: none;"></div>
+    <div class="header__menu" id="headerMenu" style="left: -100%; transition-duration: 500ms; ">
+        <div class="menu__top">
+            <div class="options__guide">
+                <div class="guide__button">
+                    <span>
+                        COMPRA GUIADA
+                    </span>
+                    <svg xmlns="https://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3.6 2.4C2.936 2.4 2.4 2.936 2.4 3.6C2.4 4.264 2.936 4.8 3.6 4.8C4.264 4.8 4.8 4.264 4.8 3.6C4.8 2.936 4.264 2.4 3.6 2.4ZM3.6 2.4C2.936 2.4 2.4 2.936 2.4 3.6C2.4 4.264 2.936 4.8 3.6 4.8C4.264 4.8 4.8 4.264 4.8 3.6C4.8 2.936 4.264 2.4 3.6 2.4ZM15.528 7.664L8.328 0.464C8.032 0.168 7.624 0 7.2 0H1.6C0.72 0 0 0.72 0 1.6V7.2C0 7.624 0.168 8.032 0.472 8.336L0.8 8.656C1.312 8.352 1.88 8.152 2.464 8.064L1.6 7.2V1.6H7.2L14.4 8.8L8.8 14.4L7.936 13.536C7.856 14.128 7.648 14.688 7.344 15.2L7.672 15.528C7.968 15.832 8.376 16 8.8 16C9.224 16 9.632 15.832 9.928 15.528L15.528 9.928C15.832 9.632 16 9.224 16 8.8C16 8.376 15.832 7.968 15.528 7.664ZM3.6 2.4C2.936 2.4 2.4 2.936 2.4 3.6C2.4 4.264 2.936 4.8 3.6 4.8C4.264 4.8 4.8 4.264 4.8 3.6C4.8 2.936 4.264 2.4 3.6 2.4ZM3.2 12H0V13.6H3.2V15.2L5.6 12.8L3.2 10.4V12Z" fill="#222426"></path></svg>
+                </div>
+                <div class="guide__modal">
+                    <div class="modal__header">
+                        <span>
+                            "Te ajudamos a encontrar"
+                            <br>
+                            "a STANLEY perfeita para você!"
+                        </span>
+                        <div class="modal__close">
+                            <span>X</span>
+                        </div>
+                    </div>
+                    <div class="modal__body">
+                        <button>Start</button>
+                    </div>
+                </div>
+            </div>
+            <div class="menu__close">
+                <svg xmlns="https://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M15 1L1 15" stroke="#333333" stroke-width="2" stroke-linejoin="round"></path><path d="M1 1L15 15" stroke="#333333" stroke-width="2" stroke-linejoin="bevel"></path></svg>
+            </div>
+        </div>
+        <div class="menu__middle">
+            <nav id="nav-mobile">
+                <ul class="navbar__menu">
+                    <li class="menu-geral">
+                        <a href="#" id="menu-BAR-MOB">BAR</a>
+                        <div class="submenu__arrow">
+                            <svg class="transition__fast" xmlns="https://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M6 9L11.351 15.4304C11.983 16.1899 13.017 16.1899 13.649 15.4304L19 9" stroke="black" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                        </div>
+                        <ul class="menu__submenu" role="menu">
+                            <li class="menu-gera-filho">
+                                <a href="#" class="menu-gera-filho">Bar</a>
+                                <ul class="submenu__mobile">
+                                    <li class="menu-geral-neto"><a href="#">Copo Térmico </a></li>
+                                    <li class="menu-geral-neto"><a href="#">Caneca Térmico </a></li>
+                                    <li class="menu-geral-neto"><a href="#">Growler Térmico </a></li>
+                                    <li class="menu-geral-neto"><a href="#">Gift Set </a></li>
+                                    <li class="menu-geral-neto"><a href="#">Ver todos </a></li>
+                                </ul>
+                            </li>
+                            <li class="menu-geral-filho">
+                                <a href="#" class="menu-gera-filho">Series</a>
+                                <ul>
+                                    <li class="menu-geral-neto"><a href="#">Happy Hour </a></li>
+                                    <li class="menu-geral-neto"><a href="#">Adventure Series </a></li>
+                                    <li class="menu-geral-neto"><a href="#">Classic Series </a></li>
+                                    <li class="menu-geral-neto"><a href="#">William Stanley Jr </a></li>
+                                    <li class="menu-geral-neto"><a href="#">Go Series </a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-geral">
+                        <a href="#" id="menu-HID-MOB">HIDRATAÇÃO</a>
+                        <div class="submenu__arrow">
+                            <svg class="transition__fast" xmlns="https://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M6 9L11.351 15.4304C11.983 16.1899 13.017 16.1899 13.649 15.4304L19 9" stroke="black" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                        </div>
+                        <ul class="menu__submenu" role="menu">
+                            <li class="menu-gera-filho">
+                                <a href="#" class="menu-gera-filho">Hidratação</a>
+                                <ul class="submenu__mobile">
+                                    <li class="menu-geral-neto"><a href="#">Copo Térmico </a></li>
+                                    <li class="menu-geral-neto"><a href="#">Caneca Térmico </a></li>
+                                    <li class="menu-geral-neto"><a href="#">Growler Térmico </a></li>
+                                    <li class="menu-geral-neto"><a href="#">Gift Set </a></li>
+                                    <li class="menu-geral-neto"><a href="#">Ver todos </a></li>
+                                </ul>
+                            </li>
+                            <li class="menu-geral-filho">
+                                <a href="#" class="menu-gera-filho">Series</a>
+                                <ul>
+                                    <li class="menu-geral-neto"><a href="#">Happy Hour </a></li>
+                                    <li class="menu-geral-neto"><a href="#">Adventure Series </a></li>
+                                    <li class="menu-geral-neto"><a href="#">Classic Series </a></li>
+                                    <li class="menu-geral-neto"><a href="#">William Stanley Jr </a></li>
+                                    <li class="menu-geral-neto"><a href="#">Go Series </a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-geral">
+                        <a href="#" id="menu-CAFE-MOB">CAFÉ</a>
+                        <div class="submenu__arrow">
+                            <svg class="transition__fast" xmlns="https://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M6 9L11.351 15.4304C11.983 16.1899 13.017 16.1899 13.649 15.4304L19 9" stroke="black" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                        </div>
+                        <ul class="menu__submenu" role="menu">
+                            <li class="menu-gera-filho">
+                                <a href="#" class="menu-gera-filho">Café</a>
+                                <ul class="submenu__mobile">
+                                    <li class="menu-geral-neto"><a href="#">Copo Térmico </a></li>
+                                    <li class="menu-geral-neto"><a href="#">Caneca Térmico </a></li>
+                                    <li class="menu-geral-neto"><a href="#">Growler Térmico </a></li>
+                                    <li class="menu-geral-neto"><a href="#">Gift Set </a></li>
+                                    <li class="menu-geral-neto"><a href="#">Ver todos </a></li>
+                                </ul>
+                            </li>
+                            <li class="menu-geral-filho">
+                                <a href="#" class="menu-gera-filho">Series</a>
+                                <ul>
+                                    <li class="menu-geral-neto"><a href="#">Happy Hour </a></li>
+                                    <li class="menu-geral-neto"><a href="#">Adventure Series </a></li>
+                                    <li class="menu-geral-neto"><a href="#">Classic Series </a></li>
+                                    <li class="menu-geral-neto"><a href="#">William Stanley Jr </a></li>
+                                    <li class="menu-geral-neto"><a href="#">Go Series </a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-geral">
+                        <a href="#" id="menu-MATE-MOB">MATE</a>
+                        <div class="submenu__arrow">
+                            <svg class="transition__fast" xmlns="https://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M6 9L11.351 15.4304C11.983 16.1899 13.017 16.1899 13.649 15.4304L19 9" stroke="black" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                        </div>
+                        <ul class="menu__submenu" role="menu">
+                            <li class="menu-gera-filho">
+                                <a href="#" class="menu-gera-filho">Mate</a>
+                                <ul class="submenu__mobile">
+                                    <li class="menu-geral-neto"><a href="#">Copo Térmico </a></li>
+                                    <li class="menu-geral-neto"><a href="#">Caneca Térmico </a></li>
+                                    <li class="menu-geral-neto"><a href="#">Growler Térmico </a></li>
+                                    <li class="menu-geral-neto"><a href="#">Gift Set </a></li>
+                                    <li class="menu-geral-neto"><a href="#">Ver todos </a></li>
+                                </ul>
+                            </li>
+                            <li class="menu-geral-filho">
+                                <a href="#" class="menu-gera-filho">Series</a>
+                                <ul>
+                                    <li class="menu-geral-neto"><a href="#">Happy Hour </a></li>
+                                    <li class="menu-geral-neto"><a href="#">Adventure Series </a></li>
+                                    <li class="menu-geral-neto"><a href="#">Classic Series </a></li>
+                                    <li class="menu-geral-neto"><a href="#">William Stanley Jr </a></li>
+                                    <li class="menu-geral-neto"><a href="#">Go Series </a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-geral">
+                        <a href="#" id="menu-KIDS-MOB">KIDS</a>
+                        <div class="submenu__arrow">
+                            <svg class="transition__fast" xmlns="https://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M6 9L11.351 15.4304C11.983 16.1899 13.017 16.1899 13.649 15.4304L19 9" stroke="black" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+
+                        </div>
+                        <ul class="menu__submenu" role="menu">
+                            <li class="menu-gera-filho">
+                                <a href="#" class="menu-gera-filho">Kids</a>
+                                <ul class="submenu__mobile">
+                                    <li class="menu-geral-neto"><a href="#">Copo Térmico </a></li>
+                                    <li class="menu-geral-neto"><a href="#">Caneca Térmico </a></li>
+                                    <li class="menu-geral-neto"><a href="#">Growler Térmico </a></li>
+                                    <li class="menu-geral-neto"><a href="#">Gift Set </a></li>
+                                    <li class="menu-geral-neto"><a href="#">Ver todos </a></li>
+                                </ul>
+                            </li>
+                            <li class="menu-geral-filho">
+                                <a href="#" class="menu-gera-filho">Series</a>
+                                <ul>
+                                    <li class="menu-geral-neto"><a href="#">Happy Hour </a></li>
+                                    <li class="menu-geral-neto"><a href="#">Adventure Series </a></li>
+                                    <li class="menu-geral-neto"><a href="#">Classic Series </a></li>
+                                    <li class="menu-geral-neto"><a href="#">William Stanley Jr </a></li>
+                                    <li class="menu-geral-neto"><a href="#">Go Series </a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-geral">
+                        <a href="#" id="menu-CAMP-MOB">CAMPING</a>
+                        <div class="submenu__arrow">
+                            <svg class="transition__fast" xmlns="https://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M6 9L11.351 15.4304C11.983 16.1899 13.017 16.1899 13.649 15.4304L19 9" stroke="black" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                        </div>
+                        <ul class="menu__submenu" role="menu">
+                            <li class="menu-gera-filho">
+                                <a href="#" class="menu-gera-filho">Camping</a>
+                                <ul class="submenu__mobile">
+                                    <li class="menu-geral-neto"><a href="#">Copo Térmico </a></li>
+                                    <li class="menu-geral-neto"><a href="#">Caneca Térmico </a></li>
+                                    <li class="menu-geral-neto"><a href="#">Growler Térmico </a></li>
+                                    <li class="menu-geral-neto"><a href="#">Gift Set </a></li>
+                                    <li class="menu-geral-neto"><a href="#">Ver todos </a></li>
+                                </ul>
+                            </li>
+                            <li class="menu-geral-filho">
+                                <a href="#" class="menu-gera-filho">Series</a>
+                                <ul>
+                                    <li class="menu-geral-neto"><a href="#">Happy Hour </a></li>
+                                    <li class="menu-geral-neto"><a href="#">Adventure Series </a></li>
+                                    <li class="menu-geral-neto"><a href="#">Classic Series </a></li>
+                                    <li class="menu-geral-neto"><a href="#">William Stanley Jr </a></li>
+                                    <li class="menu-geral-neto"><a href="#">Go Series </a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-destaque">
+                        <a class="menu-geral-filho" href="#">KITS</a>
+                    </li>
+                    <li class="menu-geral">
+                        <a href="#" id="menu-EXP-MOB">EXPLORE</a>
+                        <div class="submenu__arrow">
+                            <svg class="transition__fast" xmlns="https://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M6 9L11.351 15.4304C11.983 16.1899 13.017 16.1899 13.649 15.4304L19 9" stroke="black" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                        </div>
+                        <ul class="menu__submenu" role="menu">
+                            <li class="menu-gera-filho">
+                                <a href="#" class="menu-gera-filho">Explore</a>
+                                <ul class="submenu__mobile">
+                                    <li class="menu-geral-neto"><a href="#">Copo Térmico </a></li>
+                                    <li class="menu-geral-neto"><a href="#">Caneca Térmico </a></li>
+                                    <li class="menu-geral-neto"><a href="#">Growler Térmico </a></li>
+                                    <li class="menu-geral-neto"><a href="#">Gift Set </a></li>
+                                    <li class="menu-geral-neto"><a href="#">Ver todos </a></li>
+                                </ul>
+                            </li>
+                            <li class="menu-geral-filho">
+                                <a href="#" class="menu-gera-filho">Series</a>
+                                <ul>
+                                    <li class="menu-geral-neto"><a href="#">Happy Hour </a></li>
+                                    <li class="menu-geral-neto"><a href="#">Adventure Series </a></li>
+                                    <li class="menu-geral-neto"><a href="#">Classic Series </a></li>
+                                    <li class="menu-geral-neto"><a href="#">William Stanley Jr </a></li>
+                                    <li class="menu-geral-neto"><a href="#">Go Series </a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    </div>
+
     </header>
 <div class="page__home">
     <div class="carousel">
@@ -308,6 +589,7 @@
             <span class="material-symbols-outlined"></span>
         </a>
     </div>
+
     <div class="home__ruler">
         <div class="rule__container component__container">
             <div class="ruler__row component__row">
@@ -330,6 +612,7 @@
             <hr>
         </div>
     </div>
+
     <div class="home__showcase">
         <div class="showcase__container component__container">
             <div class="showcase__row component__row">
@@ -536,8 +819,8 @@
                                             </div>
                                         </div>
                                         </div>
-                                    </div>
-                                    <div class="swiper-slide">
+                                            </div>
+                                            <div class="swiper-slide">
                                             <div class="spot">
                                                 <div class="spot__image">
                                                     <a href="#">
@@ -756,7 +1039,7 @@
                         <div class="swiper colors__swiper swiper-container-horizontal">
                             <div class="swiper-wrapper">
                                 <div class="carousel-container">
-                                    <div class="carousel-product">
+                                    <div class="carousel-product colors">
                                         <div class="swiper-slide" style="width: 171px;">
                                             <a href="#">
                                                 <div class="color__banner">
@@ -882,6 +1165,6 @@
 
 
 
-    <script src="src/scripts/main.js"></script>
+    <script src="dist/js/main.js"></script>
 </body>
 </html>
